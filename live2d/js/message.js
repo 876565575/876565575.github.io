@@ -288,7 +288,7 @@ if(!norunFlag){
 				showMessage('思考中~', 0);
 				$.ajax({
 					type: 'POST',
-					url: 'Access-Control-Allow-Origin:http://openapi.tuling123.com/openapi/api/v2',
+					url: 'Access-Control-Allow-Origin:https://openapi.tuling123.com/openapi/api/v2',
 					data: {
 						"reqType":0,
 					    "perception": {
