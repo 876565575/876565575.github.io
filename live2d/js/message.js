@@ -285,10 +285,17 @@ if(!norunFlag){
 					showMessage('聊之前请告诉我你的名字吧！',0);
 					return;
 				}
+				var data = {};
+				data.reqType = 0;
+				data.perception.inputText.text = info_;
+				data.userInfo.apiKey = "6cad9822985d493abaf15e328a5702dc";
+				data.userInfo.userId = userid_;
+				var json = JSON.stringify(data);
 				showMessage('思考中~', 0);
 				$.ajax({
 					type: 'POST',
 					url: 'https://openapi.tuling123.com/openapi/api/v2',
+					contentType: "application/json;charset=utf-8";
 					data: {
 						"reqType":0,
 					    "perception": {
