@@ -295,7 +295,7 @@ if(!norunFlag){
 				$.ajax({
 					type: 'POST',
 					url: 'https://openapi.tuling123.com/openapi/api/v2',
-					contentType: "application/json;charset=utf-8";
+					contentType: "application/json;charset=utf-8",
 					data: {
 						"reqType":0,
 					    "perception": {
