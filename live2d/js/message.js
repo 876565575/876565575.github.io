@@ -288,13 +288,21 @@ if(!norunFlag){
 				showMessage('思考中~', 0);
 				$.ajax({
 					type: 'POST',
-					url: talkAPI,
+					url: 'Access-Control-Allow-Origin:http://openapi.tuling123.com/openapi/api/v2',
 					data: {
-						"info":info_,
-						"userid":userid_
+						"reqType":0,
+					    "perception": {
+					        "inputText": {
+					            "text": info_
+					        }
+					    },
+					    "userInfo": {
+					        "apiKey": "6cad9822985d493abaf15e328a5702dc",
+					        "userId": userid_
+					    }
 					},
 					success: function(res) {
-						if(res.code !== 100000){
+						if(res.code !== 10005){
 							talkValTimer();
 							showMessage('似乎有什么错误，请和站长联系！',0);
 						}else{
