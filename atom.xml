@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>吴后荣的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-10-24T05:38:44.337Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>吴后荣</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>live2d</title>
+    <link href="http://yoursite.com/2018/10/24/live2d/"/>
+    <id>http://yoursite.com/2018/10/24/live2d/</id>
+    <published>2018-10-23T19:09:33.000Z</published>
+    <updated>2018-10-24T05:38:44.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;展示live2d&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
